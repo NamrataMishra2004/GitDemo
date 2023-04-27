@@ -35,6 +35,7 @@ public class CustomerLoginPageObjects extends AbstractComponents {
 		Email.sendKeys(email);
 		Password.sendKeys(passwd);
 		loginBtn.click();
+		System.out.println("Password");
 	}
 	
 
